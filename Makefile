@@ -14,14 +14,10 @@ data/lightdm-cinema-greeter.mo:		data/de_DE.po
 	msgfmt -o data/lightdm-cinema-greeter.mo data/de_DE.po
 
 install:		lightdm-cinema-greeter data/lightdm-cinema-greeter.mo
-	mkdir /usr/share/lightdm-cinema-greeter.vala
-	mkdir /var/lib/lightdm-cinema-greeter
-	chown lightdm.lightdm /var/lib/lightdm-cinema-greeter
-	cp share/* /usr/share/lightdm-cinema-greeter
-	chown root.lightdm /usr/share/lightdm-cinema-greeter/*
-	cp data/lightdm-cinema-greeter.desktop /usr/share/xgreeters
+	install -D share/* /usr/share/lightdm-cinema-greeter
+	install -o lightdm -g lightdm -d /var/lib/lightdm/lightdm-cinema-greeter
+	install -o root -g root data/lightdm-cinema-greeter.desktop /usr/share/xgreeters
 	ln -sfn /usr/share/xgreeters/lightdm-cinema-greeter.desktop /etc/alternatives/lightdm-greeter
-	cp data/lightdm-cinema-greeter.mo /usr/share/locale/de/LC_MESSAGES
-
-
+	install -D data/lightdm-cinema-greeter.mo /usr/share/locale/de/LC_MESSAGES
+	install lightdm-cinema-greeter /usr/sbin
 

@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=LightDM Cinema Greeter
 Comment=This runs another GTK+ greeter, which should only be run from LightDM
-Exec=lightdm-cinema-greeter
+Exec=env LANGUAGE=de lightdm-cinema-greeter
 Type=Application
 X-Ubuntu-Gettext-Domain=lightdm-cinema-greeter

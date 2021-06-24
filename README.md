@@ -42,6 +42,12 @@ Buttons from left to right:
  * poweroff
  * login to xfce desktop
 
+UserID and session are cached, so at next login, userid is prefilled and hitting
+ENTER in the password field logs in to last used session.
+
+Language of greeter is set by greeter desktop file (data/lightdm-cinema-greeter.desktop).
+You may change that file and reissue **sudo make install** 
+
 ## Licenses
  * `share/planet_omega-wallpaper-1920x1200.jpg` [Copyright by Nicos23](http://wallpaperswide.com/planet_omega-wallpapers.html)
  * `share/xbmc.png` [GPLv2](https://www.gnu.org/licenses/old-licenses/lgpl-2.0.en.html)
