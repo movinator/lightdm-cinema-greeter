@@ -1,0 +1,50 @@
+# German translation for lightdm-cinema-greeter
+# Copyright (C) 2021 movinator@github.com
+# This file is distributed under the same license as the PACKAGE package.
+# movinator <movinator@github.com>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: de_DE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-17 15:27+0200\n"
+"PO-Revision-Date: 2021-06-19 19:11+0200\n"
+"Last-Translator: movinator <movinator@github.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: lightdm-cinema-greeter.ui:190
+msgid "userID"
+msgstr "Benutzer"
+
+#: lightdm-cinema-greeter.ui:203 lightdm-cinema-greeter.ui:235
+msgid "password"
+msgstr "Kennwort"
+
+#: lightdm-cinema-greeter.ui:218
+msgid "userid"
+msgstr "Benutzerkennung"
+
+#: lightdm-cinema-greeter.ui:264
+msgid "please enter your userID and password to login ..."
+msgstr "Bitte gib Benutzerkennung und Kennwort zur Anmeldung ein ..."
+
+#: lightdm-cinema-greeter.ui:284
+msgid "Login to mediacenter"
+msgstr "Anmeldung zum Medienspieler"
+
+#: lightdm-cinema-greeter.ui:310
+msgid "reboot system"
+msgstr "System neu starten"
+
+#: lightdm-cinema-greeter.ui:335
+msgid "shutdown to power off"
+msgstr "System ausschalten"
+
+#: lightdm-cinema-greeter.ui:359
+msgid "Login to Desktop"
+msgstr "Anmeldung zum Desktop"
